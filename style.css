@@ -1,0 +1,98 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  height: 100%;
+  font-size: 14px;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  -webkit-box-orient: vertical;
+  background-color: #555;
+}
+header {
+  height: 20px;
+  width: 800px;
+  background-color: #aff;
+}
+header h1 {
+  width: 100%;
+}
+main {
+  height: auto;
+  width: 800px;
+}
+#layer-10,
+#layer-20,
+#layer-30,
+#layer-40 {
+  position: fixed;
+}
+#layer-10 {
+  z-index: 10;
+  height: 100%;
+}
+#backcg {
+  height: 100%;
+  width: 800px;
+  background-color: #fff;
+}
+#layer-20 {
+  z-index: 20;
+  bottom: 0px;
+}
+#charcters {
+  height: auto;
+  width: 800px;
+  background-color: #000;
+  display: -webkit-box;
+}
+#charcters .pc {
+  box-sizing: border-box;
+  height: 120px;
+  width: 200px;
+  border-left: 3px #999 solid;
+  border-top: 3px #999 solid;
+  border-bottom: 3px #999 solid;
+  cursor: pointer;
+  display: -webkit-box;
+}
+#charcters .pc .pc-image {
+  height: 114px;
+  width: 100px;
+}
+#charcters .pc ul li {
+  color: #fff;
+}
+#charcters .pc ul li img {
+  height: 20px;
+  width: 20px;
+}
+#charcters .pc:hover {
+  background-color: #ccc;
+}
+#charcters .pc:last-child {
+  border-right: 3px solid #999;
+}
+#layer-30 {
+  z-index: 30;
+}
+#layer-40 {
+  z-index: 40;
+  cursor: pointer;
+  height: 100%;
+}
+#messege {
+  box-sizing: border-box;
+  height: 120px;
+  width: 800px;
+  background-color: #000;
+  border: 3px solid #999;
+  color: #fff;
+}
+.show {
+  display: block;
+}
+.hidden {
+  display: none;
+}
